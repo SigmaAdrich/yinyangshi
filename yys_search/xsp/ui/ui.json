@@ -1,0 +1,74 @@
+{
+   "style" : "default",
+   "config" : "save_111.dat",
+   "width" : 700,
+   "height" : 1080,
+   "cancelname" : "Cancel",
+   "okname" : "Let's Rock",
+   "views" : [
+      {
+         "text" : "地图探索",
+         "type" : "Page",
+         "views" : [
+            {
+               "align" : "center",
+               "color" : "0,0,225",
+               "size" : "20",
+               "text" : "",
+               "type" : "Label"
+            },
+            //妖怪探索
+            {
+               "align" : "left",
+               "color" : "0,0,255",
+               "size" : "20",
+               "text" : "探索副本 第一行选择打几次，第二行打哪一关)",
+               "type" : "Label"
+            },
+            {
+               "align" : "left",
+               "color" : "0,100,0",
+               "id" : "Tan",
+               "kbtype" : "number",
+               "prompt" : "输入数字",
+               "size" : "20",
+               "text" : "0",
+               "type" : "Edit"
+            },
+            {
+               "align" : "left",
+               "color" : "0,100,0",
+               "id" : "Tan_section",
+               "kbtype" : "number",
+               "prompt" : "输入数字",
+               "size" : "20",
+               "text" : "0",
+               "type" : "Edit"
+            }
+         ]
+      },
+      {
+         "text" : "帮助-反馈",
+         "type" : "Page",
+         "views" : [
+            {
+               "color" : "100,110,200",
+               "extra" : [
+                  //附加属性指定
+                  {
+                     "goto" : "http://bbs.xxzhushou.cn/thread-88895415-1-1.html", //跳转到网址
+                     "text" : "帮助指南"
+                  },
+                  {
+                     "goto" : "qq", //跳转到QQ咨询
+                     "text" : "1602127440"
+                  }
+               ],
+               "size" : 30,
+               "text" : "帮助指南 QQ:540059610 谢谢您的帮助",
+               "type" : "Label"
+            }
+         ]
+      }
+   ]
+}

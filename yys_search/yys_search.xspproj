@@ -1,0 +1,12 @@
+[SOURCE]
+1\SOURCEFILE=C:/Users/xupeng/Documents/xspworkspace/yys_search/xsp/src/main.lua
+2\SOURCEFILE=C:/Users/xupeng/Documents/xspworkspace/yys_search/xsp/src/test.lua
+size=2
+
+[UI]
+1\UIFILE=C:/Users/xupeng/Documents/xspworkspace/yys_search/xsp/ui/ui.json
+2\UIFILE=C:/Users/xupeng/Documents/xspworkspace/yys_search/xsp/ui/test.json
+size=1
+
+[RES]
+size=0
